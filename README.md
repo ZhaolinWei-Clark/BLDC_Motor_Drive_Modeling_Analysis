@@ -40,13 +40,13 @@ Notes:
   - bldc_120_avm/ … average-value model (120°)
   - hall/ … Hall sensor logic, commutation tables, and timing utilities
 - scripts/
-  - run_part1a.m / .py … simulation and plotting for Part 1(a)
-  - run_part1b.m / .py … AVM study for Part 1(b)
-  - run_part1c_tf.m / .py … linearization and transfer function extraction
+  - run_part1a.m  … simulation and plotting for Part 1(a)
+  - run_part1b.m  … AVM study for Part 1(b)
+  - run_part1c_tf.m  … linearization and transfer function extraction
   - run_part1d_speed_torque.m / .py … torque–speed via steady-state equations vs. φv
-  - run_part1e_compare.m / .py … overlay dynamic model points on analytical curves
-  - run_part1f_mtpv.m / .py … MTPV angle schedule and torque–speed
-  - run_part2_suite.m / .py … Part 2 studies (120° AVM and comparisons)
+  - run_part1e_compare.m  … overlay dynamic model points on analytical curves
+  - run_part1f_mtpv.m … MTPV angle schedule and torque–speed
+  - run_part2_suite.m  … Part 2 studies (120° AVM and comparisons)
 - utils/
   - motor_params.(m|py) … parameter pack
   - emf_torque_models.(m|py) … back-EMF and torque equations (trapezoidal or quasi-sinusoidal)
@@ -85,7 +85,7 @@ You can use either MATLAB/Simulink or Python (NumPy/SciPy) variants; see scripts
 ## How to Run
 
 1. Set up environment:
-   - MATLAB/Simulink R2021a+ or Python 3.10+ with NumPy, SciPy, Matplotlib
+   - MATLAB/Simulink R2021a+
    - Clone repo and add scripts/utils to path.
 
 2. Configure parameters:
